@@ -1,6 +1,6 @@
 {
     "mcpServers": {
-        "sysinfo": {
+        "server1": {
             "command": "uv",
             "args": [
                 "--directory",

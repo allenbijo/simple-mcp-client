@@ -201,10 +201,6 @@ class MCPClient:
         await self.exit_stack.aclose()
 
 async def main():
-    if len(sys.argv) < 2:
-        print("Usage: python client.py <path_to_server_script>")
-        sys.exit(1)
-        
     client = MCPClient()
     try:
         await client.connect_to_server()
@@ -213,5 +209,4 @@ async def main():
         await client.cleanup()
 
 if __name__ == "__main__":
-    import sys
     asyncio.run(main())
