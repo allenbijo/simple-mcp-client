@@ -1,0 +1,22 @@
+{
+    "mcpServers": {
+        "sysinfo": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "D:\\WorksOfGreatness\\mcp-sysinfo",
+                "run",
+                "sysinfo.py"
+            ]
+        },
+        "sysinfo2": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "D:\\WorksOfGreatness\\mcp-sysinfo",
+                "run",
+                "sysinfo.py"
+            ]
+        }
+    }
+}
