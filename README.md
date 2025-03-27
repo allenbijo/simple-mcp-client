@@ -64,7 +64,7 @@ uv run main.py
 This will initialize the chat client and allow you to interact with the selected AI model.
 
 ## Configuration
-Modify the `mcp_config.json` file to switch between GPT and Anthropic models by changing the `provider` field.
+Modify the `mcp_config.json` to add or remove servers. Modify the `.env` to add API Keys.
 
 ## License
 This project is licensed under the MIT License.
